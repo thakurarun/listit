@@ -1,0 +1,20 @@
+﻿Page {
+  background-color: transparent;
+}
+.login-page {
+ background-color: #36a;
+}
+.inner-page {
+  background-color:#aaa
+  }
+ActionBar {
+  background-color: black;
+  color: white;
+}
+TextField {
+  padding: 10;
+  font-size: 16;
+}
+.line-through {
+  text-decoration: line-through;
+}

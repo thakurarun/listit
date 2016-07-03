@@ -1,0 +1,13 @@
+<GridLayout columns="*, 10*, *" rows="*,*, 10*" class="login-page">
+  <StackLayout col="1" row="1">
+      <Label class="title" text="RADION"></Label>
+  </StackLayout>
+ <StackLayout orientation="vertical" col="1" row="2">
+   <TextField  hint="Email Address" keyboardType="email"
+     [(ngModel)]="model.Email"
+      autocorrect="false" autocapitalizationType="none"></TextField>
+    <TextField hint="Password" secure="true" [(ngModel)]="model.Password" ></TextField>
+    <Button  text="Sign in" (tap)="signIn()"></Button>
+    <Button text="Sign Up!" (tap)="registerUser()"></Button>
+   </StackLayout>
+</GridLayout>
