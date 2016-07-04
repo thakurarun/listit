@@ -1,10 +1,12 @@
 {
+  "name": "listit",
+  "version": "1.0.0",
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.sharelist",
+    "id": "org.nativescript.listit",
     "tns-android": {
       "version": "2.1.1"
     }

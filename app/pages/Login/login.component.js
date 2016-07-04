@@ -20,7 +20,7 @@ var LoginPage = (function () {
         var obs = this._userService.signIn(this.model);
         var subs = obs.subscribe(function (result) {
             console.log("passed..");
-            router.navigate(["Dashboard"]);
+            router.navigate(["list"]);
         }, function (err) { return alert(err); }, function () { });
         obs.connect();
         //.unsubscribe subscriber...

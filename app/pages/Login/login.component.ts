@@ -25,7 +25,7 @@ export class LoginPage {
     let subs = obs.subscribe(
       (result) => {
         console.log("passed..");
-        router.navigate(["Dashboard"])
+        router.navigate(["list"])
       },
       (err) => alert(err),
       () => { });

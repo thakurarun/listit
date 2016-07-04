@@ -7,8 +7,8 @@
         "emitDecoratorMetadata": true,
         "noEmitHelpers": true,
         "noEmitOnError": true,
-        "rootDir":"app",
-        "outDir": "app"
+        "rootDir": "./app",
+        "outDir": "./app"
     },
     "exclude": [
         "node_modules",

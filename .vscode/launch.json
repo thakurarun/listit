@@ -48,7 +48,7 @@
             "request": "launch",
             "appRoot": "${workspaceRoot}",
             "sourceMaps": true,
-            "diagnosticLogging": false,
+            "diagnosticLogging": true,
             "emulator": false
         },
         {
